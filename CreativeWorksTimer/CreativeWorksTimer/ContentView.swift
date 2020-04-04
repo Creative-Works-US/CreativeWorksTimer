@@ -10,8 +10,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+		VStack() {
+			HStack() {
+				Text("00")
+					.font(.largeTitle)
+					.frame(maxWidth: .infinity, maxHeight: 40)
+				Text(":")
+					.font(.largeTitle)
+					.frame(maxWidth: 10, maxHeight: 40)
+				Text("00")
+					.font(.largeTitle)
+					.frame(maxWidth: .infinity, maxHeight: 40)
+				}
+				.padding(10)
+				.frame(maxWidth:160)
+			Divider()
+			VStack() {
+				Text("Tasks")
+					.font(.title)
+				List() {
+					TaskRow()
+				}
+			}
+		}
     }
 }
 
