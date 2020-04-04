@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1843CA32438E18D00AAB9F6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1843CA22438E18D00AAB9F6 /* MainViewController.swift */; };
 		A1F9ADC02438D131000B89DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F9ADBF2438D131000B89DB /* AppDelegate.swift */; };
 		A1F9ADC22438D131000B89DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F9ADC12438D131000B89DB /* ContentView.swift */; };
 		A1F9ADC52438D131000B89DB /* CreativeWorksTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1F9ADC32438D131000B89DB /* CreativeWorksTimer.xcdatamodeld */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1843CA22438E18D00AAB9F6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A1F9ADBC2438D131000B89DB /* CreativeWorksTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreativeWorksTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F9ADBF2438D131000B89DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1F9ADC12438D131000B89DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				A1F9ADCF2438D137000B89DB /* CreativeWorksTimer.entitlements */,
 				A1F9ADC32438D131000B89DB /* CreativeWorksTimer.xcdatamodeld */,
 				A1F9ADC82438D137000B89DB /* Preview Content */,
+				A1843CA22438E18D00AAB9F6 /* MainViewController.swift */,
 			);
 			path = CreativeWorksTimer;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				A1F9ADC52438D131000B89DB /* CreativeWorksTimer.xcdatamodeld in Sources */,
 				A1F9ADC22438D131000B89DB /* ContentView.swift in Sources */,
 				A1F9ADC02438D131000B89DB /* AppDelegate.swift in Sources */,
+				A1843CA32438E18D00AAB9F6 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
