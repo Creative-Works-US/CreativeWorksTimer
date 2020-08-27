@@ -11,6 +11,7 @@
 		A19C372E2438E70700E86D2B /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19C372D2438E70700E86D2B /* TaskRow.swift */; };
 		A19C37312438E7DB00E86D2B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19C37302438E7DB00E86D2B /* Task.swift */; };
 		A19C37332438EB1300E86D2B /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19C37322438EB1300E86D2B /* RestClient.swift */; };
+		A19C37362438F02E00E86D2B /* Tasks.json in Resources */ = {isa = PBXBuildFile; fileRef = A19C37352438F02E00E86D2B /* Tasks.json */; };
 		A1F9ADC02438D131000B89DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F9ADBF2438D131000B89DB /* AppDelegate.swift */; };
 		A1F9ADC22438D131000B89DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F9ADC12438D131000B89DB /* ContentView.swift */; };
 		A1F9ADC52438D131000B89DB /* CreativeWorksTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1F9ADC32438D131000B89DB /* CreativeWorksTimer.xcdatamodeld */; };
@@ -44,6 +45,7 @@
 		A19C372D2438E70700E86D2B /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 		A19C37302438E7DB00E86D2B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		A19C37322438EB1300E86D2B /* RestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
+		A19C37352438F02E00E86D2B /* Tasks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Tasks.json; sourceTree = "<group>"; };
 		A1F9ADBC2438D131000B89DB /* CreativeWorksTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreativeWorksTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F9ADBF2438D131000B89DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1F9ADC12438D131000B89DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,9 +106,18 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		A19C37342438EFF400E86D2B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A19C37352438F02E00E86D2B /* Tasks.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		A1F9ADB32438D131000B89DB = {
 			isa = PBXGroup;
 			children = (
+				A19C37342438EFF400E86D2B /* Resources */,
 				A1F9ADBE2438D131000B89DB /* CreativeWorksTimer */,
 				A1F9ADD72438D137000B89DB /* CreativeWorksTimerTests */,
 				A1F9ADE22438D137000B89DB /* CreativeWorksTimerUITests */,
@@ -278,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19C37362438F02E00E86D2B /* Tasks.json in Resources */,
 				A1F9ADCD2438D137000B89DB /* Main.storyboard in Resources */,
 				A1F9ADCA2438D137000B89DB /* Preview Assets.xcassets in Resources */,
 				A1F9ADC72438D137000B89DB /* Assets.xcassets in Resources */,
